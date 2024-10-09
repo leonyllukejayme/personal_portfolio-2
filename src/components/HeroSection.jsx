@@ -28,7 +28,7 @@ const HeroSection = () => {
 					Coding the future, one project at a time.
 				</p>
 				<div className="flex flex-col lg:flex-row gap-3">
-					<Link href={"#contact"} className="text-white bg-gradient-to-r from-primary-500 to-primary-700 px-6 py-3 hover:bg-slate-200 rounded-full">
+					<Link href={"#contact"} className="text-white text-center bg-gradient-to-r from-primary-500 to-primary-700 px-6 py-3 hover:bg-slate-200 rounded-full">
 						Hire Me
 					</Link>
 					<button className="text-white bg-gradient-to-r from-primary-500 to-primary-700 px-1 py-1 rounded-full">
