@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
@@ -27,9 +28,9 @@ const HeroSection = () => {
 					Coding the future, one project at a time.
 				</p>
 				<div className="flex flex-col lg:flex-row gap-3">
-					<button className="text-white bg-gradient-to-r from-primary-500 to-primary-700 px-6 py-3 hover:bg-slate-200 rounded-full">
+					<Link href={"#contact"} className="text-white bg-gradient-to-r from-primary-500 to-primary-700 px-6 py-3 hover:bg-slate-200 rounded-full">
 						Hire Me
-					</button>
+					</Link>
 					<button className="text-white bg-gradient-to-r from-primary-500 to-primary-700 px-1 py-1 rounded-full">
 						<span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
 							Download CV
