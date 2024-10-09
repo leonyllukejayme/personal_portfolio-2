@@ -31,11 +31,11 @@ const HeroSection = () => {
 					<Link href={"#contact"} className="text-white text-center bg-gradient-to-r from-primary-500 to-primary-700 px-6 py-3 hover:bg-slate-200 rounded-full">
 						Hire Me
 					</Link>
-					<button className="text-white bg-gradient-to-r from-primary-500 to-primary-700 px-1 py-1 rounded-full">
+					<Link href={"https://drive.google.com/uc?export=download&id=1RTqfTAHoaBUaEG1-yGL6OTDPWSLyW0RC"} className="text-white text-center bg-gradient-to-r from-primary-500 to-primary-700 px-1 py-1 rounded-full">
 						<span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
 							Download CV
 						</span>
-					</button>
+					</Link>
 				</div>
 			</motion.div>
 			<motion.div
