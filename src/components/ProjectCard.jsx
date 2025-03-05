@@ -7,6 +7,7 @@ const ProjectCard = ({
 	description,
 	sourceCodeURL,
 	demoURL,
+	plang
 }) => {
 	return (
 		<div>
@@ -32,6 +33,13 @@ const ProjectCard = ({
 			</div>
 			<div className="text-white rounded-b-xl bg-[#181818] py-6 px-4 ">
 				<h5 className="text-xl font-semibold mb-2">{title}</h5>
+				<div className="my-2">
+					{plang.map((lang, i) => {
+						return (
+							<span key={i} className="text-xs font-medium me-2 px-2.5 py-0.5 rounded-md border">{lang}</span>
+						)
+					})}
+				</div>
 				<p className="text-[#ADB7BE]">{description}</p>
 			</div>
 		</div>

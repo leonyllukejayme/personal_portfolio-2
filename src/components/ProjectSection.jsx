@@ -37,6 +37,7 @@ const ProjectSection = () => {
 								imgUrl={project.projImg}
 								sourceCodeURL={project.sourceCodeURL}
 								demoURL={project.demoURL}
+								plang={project.pLang}
 							/>
 						</motion.div>
 					);
