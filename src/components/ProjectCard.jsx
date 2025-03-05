@@ -33,10 +33,10 @@ const ProjectCard = ({
 			</div>
 			<div className="text-white rounded-b-xl bg-[#181818] py-6 px-4 ">
 				<h5 className="text-xl font-semibold mb-2">{title}</h5>
-				<div className="my-2">
+				<div className="flex flex-wrap gap-2 my-2">
 					{plang.map((lang, i) => {
 						return (
-							<span key={i} className="text-xs font-medium me-2 px-2.5 py-0.5 rounded-md border">{lang}</span>
+							<span key={i} className="text-xs font-medium px-2.5 py-0.5 rounded-md border">{lang}</span>
 						)
 					})}
 				</div>
