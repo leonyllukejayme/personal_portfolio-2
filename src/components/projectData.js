@@ -1,19 +1,35 @@
 export const projectData = [
 	{
 		id: 1,
-		projImg: '/images/tindog.jpg',
-		title: 'TinDog Website',
-		pLang: ['Bootstrap', 'HTML', 'CSS'],
+		projImg: '/images/hcm-time-tracking.png',
+		title: 'Mini HCM Time Tracking',
+		pLang: [
+			'React',
+			'Vite',
+			'Tailwind CSS',
+			'React Router',
+			'Node.js',
+			'Express.js',
+			'Firebase Authentication',
+			'Cloud Firestore',
+			'Firebase Hosting',
+			'Render',
+			'Git',
+			'GitHub',
+			'JavaScript',
+			'REST API',
+		],
 		description:
-			'A dynamic web application crafted using HTML, CSS, and Bootstrap. It seamlessly combines elegant design with responsive functionality to create an engaging platform for dog lovers to connect and explore canine companionship',
-		sourceCodeURL: 'https://github.com/leonyllukejayme/Tin-Dog',
-		demoURL: 'https://leonyllukejayme.github.io/Tin-Dog/',
+			'A full-stack web application for managing employee attendance and work hours through role-based dashboards. Employees can record punch-in and punch-out logs, while administrators monitor attendance records and manage users. The system uses modern web technologies with Firebase integration for authentication and cloud data storage.',
+		sourceCodeURL:
+			'https://github.com/leonyllukejayme/mini-hcm-time-tracking-system',
+		demoURL: 'https://mini-mcm-time-tracking.firebaseapp.com/',
 	},
 	{
 		id: 2,
 		projImg: '/images/keeper_app1.jpg',
 		title: 'MERN-Stack Keeper App',
-		pLang: ['React', 'Nodejs', 'Express', 'MongoDB','Axios'],
+		pLang: ['React', 'Nodejs', 'Express', 'MongoDB', 'Axios'],
 		description:
 			'The MERN stack Keeper App is a robust web application that leverages MongoDB, Express.js, React.js, and Node.js to create a dynamic and efficient platform for users to seamlessly organize and manage their notes, tasks, and reminders. With a sleek and intuitive user interface built on React, users can easily add, and delete entries while the backend, powered by MongoDB and Node.js, ensures smooth data storage and retrieval.',
 		sourceCodeURL: 'https://github.com/leonyllukejayme/MERN-stack-keeperApp',
@@ -60,6 +76,5 @@ export const projectData = [
 		description:
 			'Blog Book is a dynamic blogging application powered by the MERN stack, JWT authentication, and bcrypt password hashing, offering users a seamless experience in creating, editing, and deleting blog posts. With the ability to register and login securely, as well as upload images to accompany their content, Blog Book provides a comprehensive platform for sharing thoughts and experiences.',
 		sourceCodeURL: 'https://github.com/leonyllukejayme/simon-game',
-		
 	},
 ];
