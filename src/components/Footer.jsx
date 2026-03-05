@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="text-white">
         <div className="container flex items-center justify-between mx-auto p-10 lg:p-6">
-            <span>&copy; 2024</span>
+            <span>&copy; {new Date().getFullYear()}</span>
             <Socials />
         </div>
     </footer>
