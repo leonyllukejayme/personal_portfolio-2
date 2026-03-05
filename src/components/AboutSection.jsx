@@ -16,12 +16,15 @@ const TAB_DATA = [
 				<li>Typescript</li>
 				<li>React</li>
 				<li>Nextjs</li>
+				<li>Firebase</li>
 				<li>Bootstrap</li>
 				<li>Tailwind</li>
 				<li>Python</li>
 				<li>PHP</li>
 				<li>Expressjs</li>
 				<li>Laravel</li>
+				<li>FastAPI</li>
+				<li>Django</li>
 				<li>MongoDB </li>
 				<li>MySQL</li>
 				<li>PostgreSQL</li>
