@@ -48,33 +48,24 @@ export const projectData = [
 	},
 	{
 		id: 4,
-		projImg: '/images/portfolio_v0.jpg',
-		title: 'Portfolio v0',
-		pLang: ['HTML', 'Bootstrap', 'Custom CSS'],
+		projImg: '/images/pawmedai.png',
+		title: 'PawmedAI',
+		pLang: ['Tanstack','Django'],
 		description:
-			'Portfolio v0 is a sleek and minimalist website showcasing your work and skills, crafted using HTML for structure, Bootstrap for responsive design elements, and custom CSS for personalized styling. With a clean layout and modern aesthetics, this portfolio offers a professional presentation of your projects and accomplishments.',
+			'Contributed as a Full-Stack Developer by fixing frontend issues, improving UI functionality, and helping maintain and enhance the PawmedAI web application.',
 		sourceCodeURL:
-			'https://github.com/leonyllukejayme/Capstone-Project-2-Personal-Site',
+			'https://github.com/Zeff01/PawmedAI',
 		demoURL:
-			'https://leonyllukejayme.github.io/Capstone-Project-2-Personal-Site',
+			'https://pawmedai.com/',
 	},
 	{
 		id: 5,
-		projImg: '/images/simon-game.jpg',
-		title: 'Simon Game',
-		pLang: ['Javascript', 'JQuery'],
+		projImg: '/images/durianpy.png',
+		title: 'DurianPy (Official Website)',
+		pLang: ['Nextjs'],
 		description:
-			'My Simon Game project, developed with JavaScript and jQuery, offers a captivating electronic memory game experience. Users can challenge their memory skills by following the pattern of colors and sounds, providing an engaging and interactive gaming experience.',
-		sourceCodeURL: 'https://github.com/leonyllukejayme/simon-game',
-		demoURL: 'https://leonyllukejayme.github.io/simon-game',
-	},
-	{
-		id: 6,
-		projImg: '/images/blogbook.jpg',
-		title: 'Blog Book',
-		pLang: ['MERN', 'JWT', 'Bcrypt', 'FS', 'Axios'],
-		description:
-			'Blog Book is a dynamic blogging application powered by the MERN stack, JWT authentication, and bcrypt password hashing, offering users a seamless experience in creating, editing, and deleting blog posts. With the ability to register and login securely, as well as upload images to accompany their content, Blog Book provides a comprehensive platform for sharing thoughts and experiences.',
-		sourceCodeURL: 'https://github.com/leonyllukejayme/simon-game',
+			'Implemented the missing security headers to strengthen the website\'s security posture, protect against common web vulnerabilities, and ensure compliance with recommended security best practices.',
+		demoURL:
+			'https://www.durianpy.org/',
 	},
 ];
